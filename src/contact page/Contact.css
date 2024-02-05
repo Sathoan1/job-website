@@ -1,0 +1,41 @@
+*{
+    /* background-color: blue; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Container{
+    background-color: blue;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.Sub-container{
+    background-color: chartreuse;
+    width: 100%;
+    /* position: relative; */
+    padding: 15px 60px;
+    display: flex;
+}
+.Container .Content{
+    background-color: chocolate;
+    width: 50%;
+    height: 100%;
+}
+.Content .logo{
+    background-color: crimson;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 25px;
+    list-style: none;
+    margin-bottom: 70px;
+
+}
+.text .text1 p{
+    margin-bottom: 60px;
+}
+
+.form{
+    background-color: cornflowerblue;
+    width: 50%;
+}
