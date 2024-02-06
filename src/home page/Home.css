@@ -158,7 +158,7 @@
     display: flex;
     font-family: 'Hammersmith One', sans-serif;
     width: 350px;
-    background-color: darkgreen;
+   
     height: 29px;
     margin: 20px 0 20px 30px;
     justify-content: space-between;
@@ -167,8 +167,10 @@
 .footer .icon .icon-1{
     /* object-fit: contain; */
     width: 100%;
-    display: inline-block;
-    vertical-align: middle;
     /* align-items: baseline; */
     /* justify-content: space-between; */
+    display: flex;
+ align-items: center;
+ justify-content: center;
+    gap: 10px;
 }

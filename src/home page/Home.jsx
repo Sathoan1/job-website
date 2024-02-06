@@ -20,7 +20,7 @@ const Home = () => {
     <div className='sub-container'>
    <nav className="nav">
     <div className="logo">
-        <a href="#">Adriana.</a>
+        <a href="#">Sathoan.</a>
     </div>
     <ul className='nav-links'>
         <li><a href="/project"> Projects</a></li>
@@ -37,7 +37,7 @@ const Home = () => {
         {/* <button> <h2>Full Stack Developer</h2></button> */}
 
         <div className='text1'>
-            <h1>Adriana McTominay</h1>
+            <h1>Oamen Sathoan</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pha tortor consequat nibh gravida id sit. Quis eget diam ut proin. At nisl diam urna sit. Tortor nibh ornare vestibulum amet dis eros dolor eget. Orci in enim sit luctus lacus arcu.</p>
         </div>
         <div className="text-icons">
@@ -62,8 +62,8 @@ const Home = () => {
     <div className='footer'>
         <img src={profile} alt="profile picture" />
         <div className="icon">
-            <div className='icon-1'> <AiTwotoneMail/>Email me <BsBoxArrowUpRight/></div>
-            <div className='icon-1'><AiOutlineGithub />github <BsBoxArrowUpRight/></div>
+            <div className='icon-1'> <AiTwotoneMail/><span> Email Me</span><BsBoxArrowUpRight/></div>
+            <div className='icon-1'><AiOutlineGithub /> <span>Github</span><BsBoxArrowUpRight/></div>
             
         </div>
     </div>
